@@ -33,6 +33,11 @@ a {
   height: 350px;
   text-align: center;
 }
+@media screen and (max-width:768px){
+  .top{width: 640px;
+      height: 350px;
+  }
+}
 .top-sentence{
 color: #fff;
 font-weight: bold;
@@ -102,10 +107,16 @@ h3{
   column-count: 2;
   width: 80%;
   margin: 0 auto;
+  flex-wrap:wrap ;
 }
 .item{
   break-inside: avoid;
   line-height: 1.5;
+}
+@media screen and(max-width:768px){
+  .item{
+    width:80%;
+  }
 }
 .item img{
   width: 100%;
@@ -167,6 +178,21 @@ h4{
   background: #fff;
   padding:20px 699px 20px 20px;
 }
+@media screen and (max-width:768px){
+  .news-topic-child1{
+    padding:20px 200px 20px 20px;
+  }
+}
+@media screen and (max-width:768px){
+  .news-topic-child2{
+    padding:20px 180px 20px 20px;
+  }
+}
+@media screen and (max-width:768px){
+  .news-topic-child3{
+    padding:20px 135px 20px 20px;
+  }
+}
 .blog{
   height: 100%;
   background: #fff;
@@ -181,12 +207,18 @@ h5{
 .flex-item{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .cards{
   width: 30%;
 }
 .card-img{
   width: 100%;
+}
+@media screen and (max-width:768px){
+  .cards{
+    width:80%;
+  }
 }
 .card-content{
   line-height: 1.6;
@@ -227,11 +259,21 @@ h5{
   text-align: center;
   padding: 100px 265px;
 }
+@media screen and(max-width:768px){
+  .about-child1{
+    padding: 100px 10px;
+  }
+}
 .about-child2{
   background: black;
   color: #fff;
   text-align: center;
   padding: 100px 265px;
+}
+@media screen and(max-width:768px){
+  .about-child2{
+    padding: 100px 10px;
+  }
 }
 .about-child1:hover{
   background: rgba(220,20, 60, 0.8);
