@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/index.css" />
 </head>
 <body>
+  <script src="js/main.js"></script>
   <header class="header">
     <h1 class="header-title">
       <a href="index.html">TECH</a>
@@ -23,10 +24,24 @@
         <li class="header-nav-item"><a href="contact.html">お問い合わせ</a></li>
       </ul>
     </nav>
-    <div class="menu" id="menu">
-      <span class="menu__line--top"></span>
-      <span class="menu__line--middle"></span>
-      <span class="menu__line--bottom"></span>
+    <nav>
+      <div class="inner">
+        <ul>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+          <li><a href="#">Text</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="toggle_btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    
+    <div id="mask"></div>
+    
     </div>
   </header>
   <div class="top">
@@ -108,8 +123,8 @@
     </div>
   </div>
   <div class="about">
-    <p><a href="company.html" class="about-child1">会社概要</a></p>
-    <p><a href="recruit.html" class="about-child2">採用情報</a></p>
+    <p class="about-child1"><a href="company.html">会社概要</a></p>
+    <p class="about-child2"><a href="recruit.html">採用情報</a></p>
   </div>
   <div class="question">
     <h6>お問い合わせ</h6>
@@ -134,5 +149,6 @@
       </nav>
     </div>
   </footer>
+  
 </body>
 </html>
